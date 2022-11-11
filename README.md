@@ -1,0 +1,2 @@
+# ChatBubbles
+ChatBubbles paper plugin
