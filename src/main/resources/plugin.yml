@@ -1,0 +1,8 @@
+name: ChatBubbles
+version: '${project.version}'
+main: me.thetealviper.chatbubbles.ChatBubbles
+api-version: 1.17
+depend: [ HolographicDisplays ]
+softdepend: [ Factions, MassiveCore, PlaceholderAPI, Citizens ]
+authors: [ TheTealViper ]
+description: ChatBubbles above player's heads
