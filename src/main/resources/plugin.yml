@@ -1,8 +1,21 @@
 name: ChatBubbles
-version: '${project.version}'
+version: '1.17.1'
 main: me.thetealviper.chatbubbles.ChatBubbles
 api-version: 1.17
 depend: [ HolographicDisplays ]
 softdepend: [ Factions, MassiveCore, PlaceholderAPI, Citizens ]
 authors: [ TheTealViper ]
 description: ChatBubbles above player's heads
+commands:
+  chatbubble:
+    description: ChatBubbles above player's heads
+    permission: chatbubble.use
+    aliases: [cb]
+  chatbubbletoggle:
+    description: ChatBubbles above player's heads
+    permission: chatbubble.toggle
+    aliases: [cbtoggle]
+  chatbubblereload:
+    description: ChatBubbles above player's heads
+    permission: chatbubble.reload
+    aliases: [cbreload]
